@@ -1,0 +1,542 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Quxie Web Design</title>
+</head>
+
+<body>
+    <!-- Top Header -->
+    <div class="sticky top-0 bg-white">
+        <div class="bg-nb-1 text-white font-san py-2 mb-2 text-xs flex justify-between">
+            <div class="flex">
+                <div class="ml-3 md:ml-28">
+                    <i class="fa-solid fa-phone-flip fa-rotate-90" style="color: #B3B3B3;"></i>
+                    <span>+905334236514</span>
+                </div>
+                <div class="ml-3 md:ml-12">
+                    <i class="fa-solid fa-envelope" style="color: #B3B3B3;"></i>
+                    <a href="#">info@quxiewebdesign.com</a>
+                </div>
+            </div>
+            <div class="mr-3 md:mr-36 space-x-2">
+                <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <!-- Menu -->
+        <nav class="flex justify-between font-fair flex-1 text-xl text-white items-center">
+            <div class="ml-3 md:ml-28">
+                <img src="./images/quxie_new_logo.png" width="240px">
+            </div>
+            <!-- mobile menu -->
+            <div id="mobileopen" class="mr-3 block md:hidden">
+                <div class="space-y-1 cursor-pointer flex">
+                    <div class="text-nb-1 text-2xl font-bold font-fair mr-3">Menu</div>
+                    <div class="">
+                        <div class="bg-tc-1 w-10 h-1 rounded-full mt-1"></div>
+                        <div class="bg-tc-1 w-10 h-1 rounded-full mt-1"></div>
+                        <div class="bg-tc-1 w-10 h-1 rounded-full mt-1"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobilecls" class="hidden mr-3 justify-self-end md:hidden">
+                <div class="space-y-1 cursor-pointer flex">
+                    <div class="text-nb-1 text-2xl font-bold font-fair mr-3">Menu</div>
+                    <div class="">
+                        <div class="bg-tc-1 w-10 h-1 rounded-full mt-1"></div>
+                        <div class="bg-tc-1 w-10 h-1 rounded-full mt-1"></div>
+                        <div class="bg-tc-1 w-10 h-1 rounded-full mt-1"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-8 p-4 text-tc-1 font-extrabold">
+                <a href="./works.html" class="hover:text-red-600 transition duration-300">Our Work</a>
+                <a href="./about.html" class="hover:text-red-600 transition duration-300">About</a>
+                <a href="./services.html" class="hover:text-red-600 transition duration-300">Services</a>
+                <a href="./career.html" class="hover:text-red-600 transition duration-300">Career</a>
+                <a href="./contact-us.html" class="hover:text-red-600 transition duration-300">Contact Us</a>
+            </div>
+            <div class="hidden md:flex">
+                <a href="./start.html"><button
+                        class="text-sm p-2 mr-36 bg-nb-1 rounded-full hover:bg-red-500 duration-300 hover:text-white">Start
+                        Project</button></a>
+            </div>
+        </nav>
+
+        <!-- mobile menu tıklanınca açılan-->
+        <div id="menu" class="hidden md:hidden ml-4 p-4 text-tc-1 font-bold">
+            <div><a href="./works.html"
+                    class="hover:text-red-600 transition duration-300 underline underline-offset-1">Our Work</a></div>
+            <div><a href="./about.html"
+                    class="hover:text-red-600 transition duration-300 underline underline-offset-1">About</a></div>
+            <div><a href="./services.html"
+                    class="hover:text-red-600 transition duration-300 underline underline-offset-1">Services</a></div>
+            <div><a href="./career.html"
+                    class="hover:text-red-600 transition duration-300 underline underline-offset-1">Career</a></div>
+            <div><a href="./contact-us.html"
+                    class="hover:text-red-600 transition duration-300 underline underline-offset-1">Contact Us</a></div>
+        </div>
+    </div>
+    <!-- Ara Boşluk -->
+    <div class="h-5 md:h-20 bg-transparent max-w-full">
+    </div>
+    <!-- Ön Kısım -->
+    <div class="grid grid-cols-1 md:grid-cols-3 items-center mx-3 md:mr-36 md:ml-28 mt-5 text-tc-1">
+        <div class="col-span-1 mb-5 md:mr-10 md:col-span-2">
+            <h6 class="font-fair font-extrabold text-4xl text-nb-1 mb-10">Tailor Made Web Design That Makes You
+                Stand Out</h6>
+            <p class="mb-10 text-justify">We create custom websites that showcase your unique brand and personality.
+                Contact us
+                today and let’s
+                make your online presence shine.</p>
+            <div class="flex justify-center md:justify-left">
+                <a href="./start.html"><button
+                        class="text-sm p-2 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">Start
+                        Now</button></a>
+                <a href="./works.html"><button
+                        class="text-sm p-2 bg-nb-1 ml-16 rounded-full hover:bg-red-500 duration-300 text-white">View
+                        Portfolio</button></a>
+            </div>
+        </div>
+        <div class="col-span-1 grid justify-items-center">
+            <img src="./images/business-web-banner-10.png" alt="">
+        </div>
+
+    </div>
+    <!-- Orta Kısım -->
+    <div class="flex items-center max-w-full justify-center bg-midd text-center mt-0 md:mt-20">
+        <!-- Orta Başlık -->
+        <div>
+            <h6 class="font-fair font-extrabold mb-10 pt-4   md:pt-20 text-4xl text-nb-1">Special Solutions for Your
+                Needs</h6>
+            <p class="pb-5 text-tc-1">We listen to you, we understand you and we produce tailor-made solutions for you.
+                Here are a few. Take a look.</p>
+        </div>
+    </div>
+    <!-- Cards 1-->
+    <div class="grid grid-cols-1 md:grid-cols-2 max-w-full justify-center items-center gap-10 bg-midd p-6">
+        <div
+            class="gap-10 grid grid-cols-1 md:grid-cols-2  text-tc-1 items-center rounded-3xl justify-center p-3 mx-auto bg-white">
+            <div class="col-span-1 grid justify-items-center">
+                <img src="./images/Fashion-E-Commerce-Website.png" style="width: 1100px; height: 350px;">
+            </div>
+            <div class="col-span-1 grid justify-items-center pr-6">
+                <h1 class="text-2xl text-nb-1 font-fair mb-10 font-extrabold">Fashion E-Commerce</h1>
+                <p class="mb-16">A design we prepared for a customer who sells very cool clothes. Don't you think it's
+                    perfect?</p>
+                <a href="./start.html"><button class="text-sm p-2 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">Start
+                    Now</button></a>
+            </div>
+        </div>
+        <div class="gap-10 grid grid-cols-1 md:grid-cols-2 text-tc-1 items-center rounded-3xl p-3 mx-auto bg-white">
+            <div class="col-span-1 grid justify-items-center">
+                <h1 class="text-2xl text-nb-1 font-fair mb-10 font-extrabold">Appointment Website</h1>
+                <p class="mb-20">The work we did for a client working by appointment.</p>
+                <a href="./start.html"><button class="text-sm p-2 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">Start
+                    Now</button></a>
+            </div>
+            <div class="col-span-1">
+                <img src="./images/Lawyer-Website.png" style="width: 1100px; height: 350px;">
+            </div>
+        </div>
+    </div>
+    <!-- Cards 2-->
+    <div class="grid grid-cols-1 md:grid-cols-2 max-w-full justify-center items-center gap-10 bg-midd p-6">
+        <div
+            class="gap-10 grid grid-cols-1 md:grid-cols-2  text-tc-1 items-center rounded-3xl justify-center p-3 mx-auto bg-white">
+            <div class="col-span-1 grid justify-items-center">
+                <img src="./images/Real-Estate-Website.png" style="width: 1100px; height: 350px;">
+            </div>
+            <div class="col-span-1 grid justify-items-center">
+                <h1 class="text-2xl text-nb-1 mb-10 font-fair font-extrabold">Real Estate</h1>
+                <p class="mb-16">We have a client who can easily enter all of their postings.</p>
+                <a href="./start.html"><button class="text-sm p-2 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">Start
+                    Now</button></a>
+            </div>
+        </div>
+        <div
+            class="gap-10 grid grid-cols-1 md:grid-cols-2  text-tc-1 items-center rounded-3xl justify-items-center p-3 mx-auto bg-white">
+            <div class="col-span-1 grid justify-items-center">
+                <h1 class="text-2xl text-nb-1 font-fair mb-10 font-extrabold">Travel Agency</h1>
+                <p class="mb-16">Would you like to manage all your reservations online like them?</p>
+                <a href="./start.html"><button class="text-sm p-2 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">Start
+                    Now</button></a>
+            </div>
+            <div class="col-span-1">
+                <img src="./images/Travel-Agency-Website.png" style="width: 1100px; height: 350px;">
+            </div>
+        </div>
+        <div class="col-span-1 md:col-span-2 grid justify-items-center">
+            <a href="./works.html"><button
+                    class="text-sm p-5 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">View
+                    Our Works <i class="fa-solid fa-circle-arrow-right fa-lg pl-2"></i></button></a>
+        </div>
+    </div>
+    <!-- Our Services -->
+    <div class="grid col-span-1 md:grid-cols-2 max-w-full justify-center items-center gap-10 bg-midd p-6">
+        <div class="col-span-1 text-justify  text-tc-1 items-center rounded-3xl justify-center mx-auto p-6 bg-white">
+            <h2 class="text-3xl font-fair text-nb-1 font-extrabold mb-5">Quxie : The Web Design Agency You Need</h2>
+            <p>We are Quxie Web Design, a web design agency with offices in Turkey and the UK. We have a team of
+                talented
+                designers and developers who create stunning websites for clients all over the world. We are passionate
+                about web design and we love to help our clients achieve their online objectives. We offer bespoke web
+                design solutions that suit your needs, goals, and budget. We work with you to understand your vision,
+                your
+                audience, and your industry. Then we craft a custom website that showcases your products, services, and
+                personality. Whether you want a simple landing page, a complex e-commerce site, or anything in between,
+                we
+                can make it happen. We use the latest technologies, best practices, and creative ideas to deliver
+                websites
+                that are user-friendly, functional, and beautiful. We also provide ongoing support and maintenance to
+                ensure
+                your website is always up-to-date and secure. Contact us today and let’s work together on your next web
+                project.</p>
+            <div class="flex  my-10 gap-20 justify-center">
+                <a href="./start.html"><button class="text-sm p-2 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">Start
+                    Now</button></a>
+                <a href="./works.html"><button
+                        class="text-sm p-2 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">View
+                        Portfolio</button></a>
+            </div>
+        </div>
+        <div class="hidden md:grid md:col-span-1">
+            <img src="./images/Capraz.png" style="height: 535px; width: 650px;">
+        </div>
+    </div>
+    <!-- 3 lü tanıtım -->
+    <div class="grid col-span-1 md:grid-cols-3 max-w-full justify-center items-center gap-10 bg-midd p-6">
+        <div class="col-span-1 text-justify text-nb-1 items-center rounded-3xl justify-center mx-auto p-6 bg-white">
+            <div class="flex">
+                <i class="fa-solid fa-magnifying-glass fa-2xl mt-3 mr-3" style="color: #1c3144;"></i>
+                <h2 class="text-2xl font-fair font-extrabold mb-5">SEO for the best</h2>
+            </div>
+            <p class="text-tc-1">Boost your website's visibility with our SEO services. Our team of experts will help
+                you rank higher on
+                search engines and drive more traffic to your website.</p>
+        </div>
+        <div class="col-span-1 text-justify  text-nb-1 items-center rounded-3xl justify-center mx-auto p-6 bg-white">
+            <div class="flex">
+                <i class="fa-solid fa-shuttle-space fa-2xl mt-3 mr-3" style="color: #1c3144;"></i>
+                <h2 class="text-2xl font-fair font-extrabold mb-5">Fast Delivery</h2>
+            </div>
+            <p class="text-tc-1">Get your website up and running quickly with our fast delivery. We understand that time
+                is money, so we
+                work hard to deliver your website as soon as possible without compromising quality.</p>
+        </div>
+        <div class="col-span-1 text-justify  text-nb-1 items-center rounded-3xl justify-center mx-auto p-6 bg-white">
+            <div class="flex"><i class="fa-solid fa-person-dots-from-line fa-2xl mt-3 mr-3" style="color: #1c3144;"></i>
+                <h2 class="text-2xl font-fair font-extrabold mb-5">Tailor-Made Design</h2>
+            </div>
+            <p class="text-tc-1">Get a unique and custom design for your website. Our team of designers will work with
+                you to create a
+                design that reflects your brand and stands out from the competition.</p>
+        </div>
+    </div>
+    <!-- Services -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-5 p-10 text-tc-1">
+        <div class="col-span-1 md:col-span-4 justify-self-center text-2xl font-fair text-nb-1 font-extrabold ">
+            <h2>Our Services</h2>
+        </div>
+        <div class="col-span-1 md:col-span-2">
+            <div class="grid col-span-1 md:grid-cols-2 justify-items-center md:justify-items-start mt-5 gap-3">
+                <div class="col-span-1">
+                    <div class="flex gap-5 my-5 text-nb-1">
+                        <img src="./images/web-design-icon-png-10.jpg" style="width: 8%; height: auto;">
+                        <h2 class="font-fair text-nb-1 text-2xl font-bold">Web Design</h2>
+                    </div>
+                    <p class=" text-justify">Get a custom website design that reflects your brand and stands out from
+                        the competition. Our team of designers will work with you to create a unique design that meets
+                        your specific needs.</p>
+                </div>
+                <div class="col-span-1">
+                    <div class="flex gap-5 my-5 text-nb-1">
+                        <img src="./images/seo_5681665.png" style="width: 8%; height: auto;">
+                        <h2 class="font-fair text-nb-1 text-2xl font-bold ">Seo</h2>
+                    </div>
+                    <p class=" text-justify">Boost your website’s visibility with our SEO services. Our team of experts
+                        will help you rank higher on search engines and drive more traffic to your website.</p>
+                </div>
+                <div class="col-span-1">
+                    <div class="flex gap-5 my-5 text-nb-1">
+                        <img src="./images/ecommerce.png" style="width: 8%; height: auto;">
+                        <h2 class="font-fair text-nb-1 text-2xl font-bold ">Ecommerce</h2>
+                    </div>
+                    <p class=" text-justify">Sell your products online with our ecommerce solutions. We’ll help you
+                        create a custom online store that’s easy to use and optimized for conversions.</p>
+                </div>
+                <div class="col-span-1">
+                    <div class="flex gap-5 my-5 text-nb-1">
+                        <img src="./images/wordpress.png" style="width: 8%; height: auto;">
+                        <h2 class="font-fair text-nb-1 text-2xl font-bold ">WordPress</h2>
+                    </div>
+                    <p class=" text-justify">Get a custom WordPress website that’s easy to manage and update. Our team
+                        of developers will work with you to create a site that meets your specific needs.</p>
+                </div>
+                <div class="col-span-1">
+                    <div class="flex gap-5 my-5 text-nb-1">
+                        <img src="./images/figma-html.png" style="width: 8%; height: auto;">
+                        <h2 class="font-fair text-nb-1 text-2xl font-bold ">Figma to HTML</h2>
+                    </div>
+                    <p class=" text-justify">Convert your Figma designs into HTML code that your developers can actually
+                        use. Our plugins make it easy to transform your designs into developer-friendly code.</p>
+                </div>
+                <div class="col-span-1">
+                    <div class="flex gap-5 my-5 text-nb-1">
+                        <img src="./images/figma-to-wordpress.jpg" style="width: 8%; height: auto;">
+                        <h2 class="font-fair text-nb-1 text-2xl font-bold">Figma to WordPress</h2>
+                    </div>
+                    <p class=" text-justify">Convert your Figma designs into WordPress themes that are easy to use and
+                        customize. Our plugins make it easy to transform your designs into fully functional WordPress
+                        sites.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hidden md:grid md:col-span-2 font-fair">
+            <div class="grid grid-cols-2 items-center font-fair">
+                <div class="col-span-1 p-10">
+                    <img class="mb-10" src="./images/Restaurant-Cafe-Website.png" style="height: 200px; width: auto;">
+                    <img src="./images/Travel-Agency-Website.png" style="height: 200px; width: auto;">
+
+                </div>
+                <div class="col-span-1 ">
+                    <img src="./images/PortfolioWebsite.png" style="height: 250px; width: auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- to All World -->
+    <div class="grid grid-cols-2 md:grid-cols-4 bg-midd py-10 text-justify">
+        <div class="flex gap-4 col-span-2 bg-white p-10 justify-center">
+            <img src="./images/Business-Websites.png" style="height: 200px; width: auto" ;>
+            <img src="./images/Business-Websites.png" style="height: 200px; width: auto" ;>
+            <img src="./images/Business-Websites.png" style="height: 200px; width: auto" ;>
+        </div>
+        <div class="col-span-2 bg-white p-10 ">
+            <h2 class="font-fair text-nb-1 font-extrabold text-2xl">Global Web Agency with Offices in Turkey and the UK
+            </h2>
+            <p class="text-tc-1 mt-5">We are a global web agency with offices in Turkey and the UK, providing
+                services to clients worldwide.
+                Our team of experts delivers tailor-made designs and fast delivery, while boosting your website’s
+                visibility with our SEO services. We understand that every business is unique, so we work closely with
+                our clients to create custom solutions that meet their specific needs. Whether you need a simple website
+                or a complex e-commerce platform, we have the skills and experience to deliver high-quality results.
+                Contact us today to learn more about how we can help your business grow!</p>
+        </div>
+        <div class="col-span-4 bg-white p-10 flex justify-center">
+            <a href="./about.html"><button
+                    class="text-sm p-5 bg-nb-1 rounded-full hover:bg-red-500 duration-300 text-white">Read
+                    More <i class="fa-solid fa-circle-arrow-right fa-lg pl-2"></i></button></a>
+        </div>
+    </div>
+    <!-- Testimotional -->
+    <div class="grid grid-cols-3 md:grid-cols-6 bg-midd text-tc-1">
+        <div class="col-span-3 md:col-span-2 bg-white rounded-xl m-5 p-10 border-1">
+            <div class="border-b-2 p-10 justify-start">
+                <div class="flex">
+                    <img src="./images/johnsmith.png">
+                    <div class="ml-3">
+                        <h4 class=" text-nb-1 font-bold">John Smith</h4>
+                        <h4 class="underline text-nb-1 font-extrabold">CEO of Acme Inc.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 p-5">
+                <p class="text-justify">I was blown away by the quality of their work and their attention to detail.
+                    They really took the time to understand my needs and delivered a website that exceeded my
+                    expectations.</p>
+            </div>
+            <div class="py-5 text-nb-1">
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+        <div class="col-span-3 md:col-span-2 bg-white rounded-xl m-5 p-10 border-1">
+            <div class="border-b-2 p-10 justify-start">
+                <div class="flex">
+                    <img src="./images/janedoe.png">
+                    <div class="ml-3">
+                        <h4 class=" text-nb-1 font-bold">Jane Doe</h4>
+                        <h4 class="underline text-nb-1 font-extrabold">Owner of XYZ Corp.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 p-5">
+                <p class="text-justify">I highly recommend Quxie Website Design. They were able to create a beautiful
+                    website for my business in no time at all. Their team was professional, responsive, and easy to work
+                    with.</p>
+            </div>
+            <div class="py-5 text-nb-1">
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+        <div class="col-span-3 md:col-span-2 bg-white rounded-xl m-5 p-10 border-1">
+            <div class="border-b-2 p-10 justify-start">
+                <div class="flex">
+                    <img src="./images/mehmetalicansiz.png">
+                    <div class="ml-3">
+                        <h4 class=" text-nb-1 font-bold">Mehmet Ali Cansız</h4>
+                        <h4 class="underline text-nb-1 font-extrabold">Sales Man. XtMachine</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 p-5">
+                <p class="text-justify">They helped me create a custom ecommerce store that has been a huge success.
+                    Their team was knowledgeable, friendly, and always available to answer my questions.</p>
+            </div>
+            <div class="py-5 text-nb-1">
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+        <div class="hidden md:grid md:col-span-2 bg-white rounded-xl m-5 p-10 border-1">
+            <div class="border-b-2 p-10 justify-start">
+                <div class="flex">
+                    <img src="./images/samanthajones.png">
+                    <div class="ml-3">
+                        <h4 class=" text-nb-1 font-bold">Samantha Jones</h4>
+                        <h4 class="underline text-nb-1 font-extrabold">Marketing Man. DEF Inc.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 p-5">
+                <p class="text-justify">I’m so glad I chose Quxie Website Design. They created a custom WordPress site
+                    for me that looks great and is easy to manage. Their team was patient, helpful, and always willing
+                    to go the extra mile.</p>
+            </div>
+            <div class="py-5 text-nb-1">
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+        <div class="hidden md:grid md:col-span-2 bg-white rounded-xl m-5 p-10 border-1">
+            <div class="border-b-2 p-10 justify-start">
+                <div class="flex">
+                    <img src="./images/ahmetyilmaz.png">
+                    <div class="ml-3">
+                        <h4 class=" text-nb-1 font-bold">Ahmet Yılmaz</h4>
+                        <h4 class="underline text-nb-1 font-extrabold">Owner of GHI Corp.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 p-5">
+                <p class="text-justify">Quxie Website Design is the real deal! They helped me convert my Figma designs
+                    into HTML code that my developers could actually use. Their plugins made the process quick and
+                    painless.</p>
+            </div>
+            <div class="py-5 text-nb-1">
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+        <div class="hidden md:grid md:col-span-2 bg-white rounded-xl m-5 p-10 border-1">
+            <div class="border-b-2 p-10 justify-start">
+                <div class="flex">
+                    <img src="./images/Davidlee.png">
+                    <div class="ml-3">
+                        <h4 class=" text-nb-1 font-bold">David Lee</h4>
+                        <h4 class="underline text-nb-1 font-extrabold">Owner of JKL Ltd.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="border-b-2 p-5">
+                <p class="text-justify">I couldn’t be happier with Quxie Website Design. They helped me convert my Figma
+                    designs into a fully functional WordPress site that looks amazing. Their team was professional,
+                    responsive, and easy to work with.</p>
+            </div>
+            <div class="py-5 text-nb-1">
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+                <i class="fa-solid fa-star fa-xs"></i>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class=" bg-nb-1 p-10  text-gray-300">
+        <div class="grid grid-cols-3 md:grid-cols-4 border-b-2 justify-items-center">
+            <div class="hidden md:grid md:col-span-1 p-4">
+                <img src="./images/quxie_new_logo.png" width="200px" class="mb-4">
+                <p class="text-justify text-sm">Thanks to Webpop Design’s efforts, the company’s conversions increased
+                    by 35%
+                    after a successful
+                    website
+                    launch. The team was supportive and prompt throughout, ensuring everyone was on the same page.
+                    Overall,
+                    their reliable delivery times and work quality were the highlights of this collaboration.</p>
+            </div>
+            <div class="block col-span-1 p-4">
+                <h3 class="mb-4 font-bold text-xl">Pages</h3>
+                <p><a href="./works.html">Our Work</a></p>
+                <p><a href="./about.html">About</a></p>
+                <p><a href="./services.html">Services</a></p>
+                <p><a href="./career.html">Career</a></p>
+                <p><a href="./contact-us.html">Contact Us</a></p>
+            </div>
+            <div class="col-span-1 p-4">
+                <div class="block">
+                    <h3 class="mb-4 font-bold text-xl">Services</h3>
+                    <p><a href="./works.html">Web Design</a></p>
+                    <p><a href="./works.html">WordPress</a></p>
+                    <p><a href="./works.html">OpenCart</a></p>
+                    <p><a href="./works.html">E-Commerce</a></p>
+                </div>
+            </div>
+            <div class="col-span-1 p-4">
+                <div class="border-b-2 mb-5 pb-5">
+                    <h3 class="mb-4 font-bold text-xl">Contact Us</h3>
+                    <p>info@quxie.com</p>
+                    <p>+905334236514</p>
+                    <p>İbrahim Karaoğlanoğlu Cd. No:105</p>
+                    <p>Kağıthane / İstanbul</p>
+                </div>
+                <h3 class="mb-4 font-bold text-xl">London Address</h3>
+                <p>00447824677296</p>
+                <p>30 Rugby Rd, Twickenham TW1 1DG, UK</p>
+            </div>
+        </div>
+        <div class="flex justify-center mt-5">
+            <p>Quxie Web Design 2017. All Right Reserved</p>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
